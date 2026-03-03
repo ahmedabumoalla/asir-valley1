@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  /* ألوان الهوية الرسمية المستخرجة من الشعار */
+  --color-navy: #0A1D37;   /* الكحلي العميق الصارم */
+  --color-gold: #C5A059;   /* الذهبي الاستثماري */
+  --color-surface: #F8FAFC; /* خلفية هادئة لقطاع الأعمال */
+  
+  /* الخطوط الرسمية */
+  --font-sans: var(--font-ibm-plex), var(--font-inter), sans-serif;
+}
+
+/* التنسيقات العامة للبودي */
+body {
+  background-color: var(--color-surface);
+  color: var(--color-navy);
+}
+
+/* كلاس مخصص للزر عشان نضمن ظهوره حتى لو علق التيلويند */
+.btn-official {
+  background-color: #0A1D37;
+  color: #ffffff;
+  border-bottom: 4px solid #C5A059;
+  padding: 0.75rem 2.5rem;
+  font-weight: 700;
+  transition: all 0.2s;
+}
+.btn-official:hover {
+  background-color: #C5A059;
+  color: #0A1D37;
+}
