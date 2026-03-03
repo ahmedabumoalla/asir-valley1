@@ -137,7 +137,7 @@ export default function OpportunityDetails() {
           </div>
           <div className="p-4 h-64 overflow-y-auto text-right text-xs space-y-4 bg-slate-50">
             <div className="bg-white p-3 border border-gray-100 rounded-lg shadow-sm">
-              مرحباً بك! بخصوص "مزرعة السحاب"، هي فرصة بعائد متوقع 18% [cite: 152] وتعتبر من أكثر الفرص أماناً في السودة حالياً[cite: 57]. هل تود معرفة تفاصيل العوائد؟
+              مرحباً بك! بخصوص "مزرعة السحاب"، هي فرصة بعائد متوقع 18%  وتعتبر من أكثر الفرص أماناً في السودة حالياً. هل تود معرفة تفاصيل العوائد؟
             </div>
           </div>
           <div className="p-3 border-t border-gray-100 flex gap-2">
